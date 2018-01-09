@@ -1,0 +1,591 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow:scroll;
+    overflow-x:hidden;
+    background:#fff0d9;
+}
+.Head{
+    height: 80px;
+}
+.Head h4{
+    margin:27px 0 0 -50px;
+    padding:0;
+    width: 150px;
+    height: 50px;
+    font-family: cursive;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    background: #ff9701;
+    line-height: 50px;
+    position: relative;
+    left: 255px;
+}
+#design{
+    color:#fff;
+}
+#I{
+    color:red;
+}
+.nav ul li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.nav {
+    margin: -51px 0 0 450px;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+
+.nav ul li{
+    float:left;
+}
+.nav ul li a{
+    width:100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display:block;
+    background:#ff9701;
+    border-right:1px dotted #f56b00;
+    color:#666;
+}
+.nav ul li ul li a{
+    border-right:none;
+}
+.nav ul li :hover{
+    background:#f56b00;
+    color:#fff;
+}
+.nav ul li ul{
+    position:absolute;
+}
+.nav ul li ul li{
+    float:none;
+}
+.nav ul li ul li {
+    border-right:none;
+    border-top:1px dotted #ccc;
+    background:#ff9701;
+}
+.nav ul li ul {
+    position: absolute;
+    display: none;
+}
+.nav ul li ul li{
+    float:none;
+}
+.nav ul li ul li {
+    border-right:none;
+    border-top:1px dotted #ccc;
+    background:#ff9701;
+}
+.nav ul li:hover ul{
+    display:block;
+}
+.h5-1{
+    background:#ff9600;
+    color:#fff;
+    font-family:"微软雅黑",sans-serif;
+    width: 260px;
+    height: 30px;
+    font-size: 1em;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    left: 746px;
+    top: 274px;
+}
+.h5-2{
+    background:#a9a9a9;
+    color:#000;
+    font-weight: lighter;
+    width: 191px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    left: 815px;
+    top: 304px;
+}
+.h5-3{
+    background:#000;
+    color:#fff;
+    width: 110px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    left: 896px;
+    top: 329px;
+}
+.Introduce{
+    background:#363636;
+    height: 250px;
+}
+.Introduce h3{
+    color: #fff;
+    font-size: 1.7em;
+    position: relative;
+    left: 214px;
+    top: 65px;
+}
+.h3-1{
+    color:#ff9600;
+}
+.Introduce p{
+    position: relative;
+    top: 75px;
+    left: 214px;
+    text-indent:2em;
+    color:#8f8f8f;
+}
+.Introduce p:hover{
+    color: #B9B9B9;
+}
+.div{
+    height:1220px;
+}
+/*.Circle{
+    height: 109px;
+    width: 109px;
+    background: #868686;
+    border-radius: 100px;
+    position: relative;
+    top: -56px;
+    left: 248px;
+    display: inline-block;
+}*/
+/*美味甜食*/
+.div-1{
+    top: 66px;
+    width: 218px;
+    left: 190px;
+    position: relative;
+    height: 127px;
+    text-align:center;
+}
+.div-1 p{
+    line-height: 22px;
+    position: relative;
+    top: 15px;
+    font-size: .85em;
+    color: #8a8a8a;
+    text-align:center;
+}
+.div-1:hover{
+    color:#9e3800;
+}
+.div-1 p:hover{
+    color:#9e3800;
+}
+/*休闲茶饮*/
+.div-2{
+    top: -60px;
+    width: 218px;
+    left: 457px;
+    position: relative;
+    height: 127px;
+    text-align:center;
+}
+.div-2:hover{
+    color:#9e3800;
+}
+.div-2 h3{
+    display:inline-block;
+}
+.div-2 p{
+    display:inline-block;
+    line-height: 22px;
+    position: relative;
+    top: 15px;
+    font-size: .85em;
+    color: #8a8a8a;
+    text-align:center;
+}
+.div-2 p:hover{
+    color:#9e3800;
+}
+/*正餐主食*/
+.div-3{
+    top: -187px;
+    width: 232px;
+    left: 708px;
+    position: relative;
+    height: 127px;
+    text-align:center;
+}
+.div-3:hover{
+    color:#9e3800;
+}
+.div-3 h3{
+    display:inline-block;
+}
+.div-3 p{
+    display:inline-block;
+    line-height: 22px;
+    position: relative;
+    top: 15px;
+    font-size: .85em;
+    color: #8a8a8a;
+    text-align:center;
+}
+.div-3 p:hover{
+    color:#9e3800;
+}
+/*风味牛扒*/
+.div-4{
+    top: -314px;
+    width: 218px;
+    left: 970px;
+    position: relative;
+    height: 127px;
+    text-align:center;
+}
+.div-4:hover{
+    color:#9e3800;
+}
+.div-4 h3{
+    display:inline-block;
+}
+.div-4 p{
+    display:inline-block;
+    line-height: 22px;
+    position: relative;
+    top: 15px;
+    font-size: .85em;
+    color: #8a8a8a;
+    text-align:center;
+}
+.div-4 p:hover{
+    color:#9e3800;
+}
+.div img{
+    width: 1000px;
+    position: relative;
+    left: 184px;
+    top: -192px;
+}
+/*鲜嫩多汁的烤牛排*/
+.Last-1{
+    line-height: 23px;
+    position: relative;
+    top: -192px;
+    left: 205px;
+    text-align: center;
+    width: 256px;
+}
+.Last-1 h2 {
+    margin: 0 0 3px 0;
+}
+.Last-1 h2 span{
+    color:#ff9701;
+}
+.Last-1 time{
+    color: #a9a9a9;
+    font-size:0.83em
+}
+.Last-1 time:hover{
+    color:#666;
+}
+.Last-1 p{
+    font-size: .85em;
+    color: #696969;
+}
+.Last-1 p:hover{
+    color:#ED715F;
+}
+/*香滑爽口的冰淇淋*/
+.Last-2{
+    line-height: 23px;
+    position: relative;
+    top: -335px;
+    left: 560px;
+    text-align: center;
+    width: 257px;
+}
+.Last-2 h2 {
+    margin: 0 0 3px 0;
+}
+.Last-2 h2 span{
+    color:#ff9701;
+}
+.Last-2 time{
+    color: #a9a9a9;
+    font-size:0.83em
+}
+.Last-2 time:hover{
+    color:#666;
+}
+.Last-2 p{
+    font-size: .85em;
+    color: #696969;
+}
+.Last-2 p:hover{
+    color:#ED715F;
+}
+/*弹性劲道的肉酱意面*/
+.Last-3{
+    line-height: 23px;
+    position: relative;
+    top: -476px;
+    left: 914px;
+    text-align: center;
+    width: 266px;
+}
+.Last-3 h2 {
+    margin: 0 0 3px 0;
+}
+.Last-3 h2 span{
+    color:#ff9701;
+}
+.Last-3 time{
+    color: #a9a9a9;
+    font-size:0.83em
+}
+.Last-3 time:hover{
+    color:#666;
+}
+.Last-3 p{
+    font-size: .85em;
+    color: #696969;
+}
+.Last-3 p:hover{
+    color:#ED715F;
+}
+/*图标*/
+.Last-4{
+    position: relative;
+    top: -457px;
+    height:40px;
+}
+.Last-4 h3{
+    position: relative;
+    background: #414141;
+    width: 126px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    color: #fcd888;
+    font-family: cursive;
+    font-size: 16px;
+}
+.Last-4 h3:hover{
+    background:#ff9701;
+    color:#fff;
+}
+.h3-1{
+    left:265px;
+}
+.h3-2{
+    left: 619px;
+    top: -40px;
+}
+.h3-3{
+    left: 987px;
+    top: -80px;
+}
+/*缤纷美食*/
+.Next{
+    height: 215px;
+    background:#a9a9a9;
+   padding:20px 0 20px 0;
+}
+.This1{
+    position: relative;
+    display: inline-block;
+    left: 175px;
+}
+.This1 h4{
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 0 0 14px 0;
+    color:#2F2F2F;
+}
+.This1 ul{
+    width:48px;
+    position: relative;
+    left: 11px;
+}
+.This1 ul li{
+    margin: 0 0 9px 0;
+    color:#666666;
+}
+.This1 ul li:hover{
+    color:#EB5334;
+}
+/*优惠活动*/
+.This2{
+    position: relative;
+    left: 283px;
+    top: -226px;
+    width:154px;
+}
+.This2 h4{
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 0 0 14px 0;
+    color:#2F2F2F;
+}
+.This2 ul{
+    width:144px;
+    position: relative;
+    left: 11px;
+}
+.This2 ul li{
+    margin: 0 0 9px 0;
+    color:#666666;
+}
+.This2 ul li:hover{
+    color:#EB5334;
+}
+/*商品促销*/
+.This3{
+    position: relative;
+    left: 458px;
+    top: -370px;
+    width: 139px;
+}
+.This3 h4{
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 0 0 14px 0;
+    color:#2F2F2F;
+}
+.This3 ul{
+    width: 128px;
+    position: relative;
+    left: 11px;
+}
+.This3 ul li{
+    margin: 0 0 9px 0;
+    color:#666666;
+}
+.This3 ul li:hover{
+    color:#EB5334;
+}
+/*宴会订制*/
+.This4{
+    position: relative;
+    left: 618px;
+    top: -515px;
+    width: 79px;
+}
+.This4 h4{
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 0 0 14px 0;
+    color:#2F2F2F;
+}
+.This4 ul{
+    width:64px;
+    position: relative;
+    left: 11px;
+}
+.This4 ul li{
+    margin: 0 0 9px 0;
+    color:#666666;
+}
+.This4 ul li:hover{
+    color:#EB5334;
+}
+/*会员中心*/
+.This5{
+    position: relative;
+    left: 725px;
+    top: -606px;
+    width: 79px;
+}
+.This5 h4{
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 0 0 14px 0;
+    color:#2F2F2F;
+}
+.This5 ul{
+    position: relative;
+    left: 11px;
+}
+.This5 ul li{
+    margin: 0 0 9px 0;
+    color:#666666;
+}
+.This5 ul li:hover{
+    color:#EB5334;
+}
+/*关于我们*/
+.This6{
+    position: relative;
+    left: 830px;
+    top: -751px;
+    width: 79px;
+}
+.This6 h4{
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 0 0 14px 0;
+    color:#2F2F2F;
+}
+.This6 ul{
+    position: relative;
+    left: 11px;
+}
+.This6 ul li{
+    margin: 0 0 9px 0;
+    color:#666666;
+}
+.This6 ul li:hover{
+    color:#EB5334;
+}
+/*友情链接*/
+.This7{
+    position: relative;
+    left: 950px;
+    top: -870px;
+    width: 226px;
+}
+.This7 h4{
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 0 0 14px 0;
+    color:#2F2F2F;
+}
+.This7 ul{
+    position: relative;
+    left: 11px;
+}
+.This7 ul li{
+    margin: 0 0 9px 0;
+    color:#666666;
+}
+.This7 ul li:hover{
+    color:#EB5334;
+}
+/*页脚*/
+footer{
+    background:#000;
+    color:#fff;
+}
+footer small{
+    position: relative;
+    left: 175px;
+    color: #868686;
+}
+.img-1{
+    position: relative;
+    left: 454px;
+    top: -13px;
+}
+.small-1{
+    position: relative;
+    left: 392px;
+    display: inline-block;
+    color: #868686;
+}
